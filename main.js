@@ -464,9 +464,9 @@ async function connectionUpdate(update) {
         const currentTime = new Date();
         const pingStart = new Date();
                                                              const infoMsg = `▣╾────────────────────┈\n┆⏤͟͟͞͞ʙᴏᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ\n▣╾────────────────────┈\n┆→ꜰᴠɴᴋʏʏʙᴏᴛᴢᴢ-ᴍᴅᴠ7\n┆─╼「 ʟɪɴᴜx 」╾─\n┆→sʀɪᴘᴛ ʙʏ ʀɪɪxɢᴀɴᴢ ʜᴏsᴛɪɴɢ.`;
-                                                             conn.sendMessage("6282318658612@s.whatsapp.net", {
+                                                             conn.sendMessage("6289605717890@s.whatsapp.net", {
             text: infoMsg,
-       mentions: ["6282318658612@s.whatsapp.net", jid]
+       mentions: ["6289605717890@s.whatsapp.net", jid]
        }, {
           quoted: global.fakes, 
            ephemeralExpiration: global.ephemeral
